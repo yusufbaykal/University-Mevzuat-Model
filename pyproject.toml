@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "University Mevzuat Model"
+version = "0.1.0"
+description = ""
+authors = ["Yusuf Baykaloğlu <yusuff.baykaloglu@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+llama-index-llms-openai = "^0.2.16"
+llama-index = "^0.11.22"
+python-dotenv = "^1.0.1"
+scapy = "^2.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
